@@ -56,7 +56,7 @@ type PhoneNumber {
     string number;
 };
 
-function benchmarkContrainingWithNestedRecords() {
+function benchmarkConstrainingWithNestedRecords() {
     json<Employee> e = {first_name:"John", last_name:"Doe", age:30, address:{phoneNumber:{number:"1234"}, street:"York St"}};
     json address = e.address;
     json phoneNumber = e.address.phoneNumber.number;

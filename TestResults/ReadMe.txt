@@ -1,1 +1,0 @@
-This test carried out with warmupIterations of 16 and benchmarkIterations of 1114.

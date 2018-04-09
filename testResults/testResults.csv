@@ -1,0 +1,61 @@
+Function_Name,Total Time (ms),Average Latency (ns),Throughput (operations/second) 
+benchmarkTypeAnyJSONCasting,    162.39,   6495.77, 153946.39
+benchmarkJsonStructConstraint,    218.64,   8745.48, 114344.72
+benchmarkJsonInitializationWithStructConstraint,     54.83,   2193.14, 455967.04
+benchmarkGetPlainJson,     61.80,   2472.01, 404529.00
+benchmarkGetConstraintJson,     60.02,   2400.87, 416515.13
+benchmarkGetPersonJson,     48.65,   1945.84, 513915.74
+benchmarkConstrainingWithNestedRecords,    109.07,   4362.87, 229207.02
+benchmarkConstraintJSONToJSONCast,     57.90,   2316.18, 431744.90
+benchmarkJSONToConstraintJsonUnsafeCast,    109.53,   4381.37, 228239.11
+benchmarkConstraintJSONToConstraintJsonCast,     62.93,   2517.08, 397284.97
+benchmarkConstraintJSONToConstraintJsonUnsafePositiveCast,     65.37,   2614.85, 382431.40
+benchmarkConstraintJSONToConstraintJsonUnsafeNegativeCast,    123.51,   4940.49, 202409.04
+benchmarkJSONArrayToConstraintJsonArrayCastPositive,    200.69,   8027.65, 124569.51
+benchmarkJSONArrayToConstraintJsonArrayCastNegative,    189.57,   7582.78, 131877.75
+benchmarkJSONArrayToCJsonArrayCast,    136.47,   5458.66, 183195.31
+benchmarkJSONArrayToCJsonArrayCastNegative,    111.90,   4475.81, 223423.34
+benchmarkCJSONArrayToJsonAssignment,    206.11,   8244.57, 121291.95
+benchmarkMixedTypeJSONArrayToCJsonArrayCastNegative,    196.97,   7878.91, 126921.09
+benchmarkConstrainedJsonWithFunctions,    399.18,  15967.36,  62627.75
+benchmarkConstrainedJsonWithFunctionGetKeys,     92.17,   3686.93, 271228.17
+benchmarkPrintAnyVal,    379.86,  15194.52,  65813.20
+benchmarkPrintlnAnyVal,    506.00,  20240.02,  49407.06
+benchmarkIntAddition,      6.61,    264.55,3780023.21
+benchmarkIntSubtraction,      3.64,    145.61,6867786.59
+benchmarkIntMultiplication,      3.71,    148.56,6731203.65
+benchmarkIntDivision,      4.25,    170.15,5877041.48
+benchmarkIntTypesAddition,      4.59,    183.62,5446035.78
+benchmarkIntegerTypesMultiplication,      4.53,    181.13,5520968.53
+benchmarkIntegerTypesSubtraction,      5.63,    225.04,4443579.43
+benchmarkIntegerTypesDivision,     17.07,    682.76,1464637.76
+benchmarkFloatAddition,     15.82,    632.87,1580093.75
+benchmarkFloatAdditionWithReturn,     41.97,   1678.97, 595603.21
+benchmarkFloatMultiplication,      8.52,    340.89,2933473.86
+benchmarkFloatMultiplicationWithReturn,     13.36,    534.49,1870942.11
+benchmarkFloatSubtraction,      8.48,    339.03,2949550.42
+benchmarkFloatSubtractionWithReturn,     14.26,    570.58,1752595.49
+benchmarkFloatDivision,      5.25,    210.06,4760493.84
+benchmarkFloatDivisionWithReturn,      6.41,    256.46,3899184.56
+benchmarkCurrentTimeFunction,     78.28,   3131.03, 319383.48
+benchmarkCreateTimeWithZoneIDFunction,     30.34,   1213.68, 823940.66
+benchmarkCreateTimeWithOffsetFunction,     20.44,    817.77,1222842.50
+benchmarkCreateTimeWithNoZoneFunction,     19.79,    791.53,1263376.63
+benchmarkCreateDateTimeFunction,     60.62,   2424.86, 412395.70
+benchmarkParseTimeFunction,    164.59,   6583.78, 151888.36
+benchmarkToStringWithCreateTimeFunction,     94.80,   3792.03, 263710.75
+benchmarkFormatTimeFunction,    131.94,   5277.77, 189474.06
+benchmarkFormatTimeToRFC1123function,     73.17,   2926.94, 341654.07
+benchmarkTimeGetFunctions,    108.76,   4350.35, 229866.47
+benchmarkGetDateFunction,     65.78,   2631.12, 380066.19
+benchmarkGetTimeFunction,     34.73,   1389.13, 719876.21
+benchmarkAddDurationFunction,    270.80,  10831.92,  92319.78
+benchmarkSubtractDurationFunction,    254.86,  10194.49,  98092.22
+benchmarkToTimezoneFunction,    117.73,   4709.14, 212352.80
+benchmarkToTimezoneFunctionWithDateTime,    120.72,   4828.68, 207095.81
+benchmarkManualTimeCreateFunction,     37.09,   1483.44, 674110.77
+benchmarkManualTimeCreateFunctionWithNoZone,     31.68,   1267.17, 789159.70
+benchmarkManualTimeCreateFunctionWithEmptyZone,     30.36,   1214.25, 823555.18
+benchmarkParseTimeFunctionWithDifferentFormats,   1210.11,  48404.24,  20659.35
+benchmarkSprintfWithFloat,    107.29,   4291.77, 233004.27
+benchmarkSprintfWithString,     72.81,   2912.39, 343360.66

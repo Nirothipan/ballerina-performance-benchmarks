@@ -12,7 +12,7 @@ public function getTypeBenchmarkArray() returns (functionRecord[]) {
         {functionName:"benchmarkGetPlainJson", f:benchmarkGetPlainJson},
         {functionName:"benchmarkGetConstraintJson", f:benchmarkGetConstraintJson},
         {functionName:"benchmarkGetPersonJson", f:benchmarkGetPersonJson},
-        {functionName:"benchmarkContrainingWithNestedRecords", f:benchmarkContrainingWithNestedRecords},
+        {functionName:"benchmarkConstrainingWithNestedRecords", f:benchmarkConstrainingWithNestedRecords},
         {functionName:"benchmarkConstraintJSONToJSONCast", f:benchmarkConstraintJSONToJSONCast},
         {functionName:"benchmarkJSONToConstraintJsonUnsafeCast", f:benchmarkJSONToConstraintJsonUnsafeCast},
         {functionName:"benchmarkConstraintJSONToConstraintJsonCast", f:benchmarkConstraintJSONToConstraintJsonCast},
@@ -40,9 +40,13 @@ public function getTypeBenchmarkArray() returns (functionRecord[]) {
         {functionName:"benchmarkIntegerTypesDivision", f:benchmarkIntegerTypesDivision},
 
         {functionName:"benchmarkFloatAddition", f:benchmarkFloatAddition},
+        {functionName:"benchmarkFloatAdditionWithReturn", f:benchmarkFloatAdditionWithReturn},
         {functionName:"benchmarkFloatMultiplication", f:benchmarkFloatMultiplication},
+        {functionName:"benchmarkFloatMultiplicationWithReturn", f:benchmarkFloatMultiplicationWithReturn},
         {functionName:"benchmarkFloatSubtraction", f:benchmarkFloatSubtraction},
+        {functionName:"benchmarkFloatSubtractionWithReturn", f:benchmarkFloatSubtractionWithReturn},
         {functionName:"benchmarkFloatDivision", f:benchmarkFloatDivision},
+        {functionName:"benchmarkFloatDivisionWithReturn", f:benchmarkFloatDivisionWithReturn},
 
         {functionName:"benchmarkCurrentTimeFunction", f:benchmarkCurrentTimeFunction},
         {functionName:"benchmarkCreateTimeWithZoneIDFunction", f:benchmarkCreateTimeWithZoneIDFunction},
@@ -63,7 +67,11 @@ public function getTypeBenchmarkArray() returns (functionRecord[]) {
         {functionName:"benchmarkManualTimeCreateFunction", f:benchmarkManualTimeCreateFunction},
         {functionName:"benchmarkManualTimeCreateFunctionWithNoZone", f:benchmarkManualTimeCreateFunctionWithNoZone},
         {functionName:"benchmarkManualTimeCreateFunctionWithEmptyZone", f:benchmarkManualTimeCreateFunctionWithEmptyZone},
-        {functionName:"benchmarkParseTimeFunctionWithDifferentFormats", f:benchmarkParseTimeFunctionWithDifferentFormats}
+        {functionName:"benchmarkParseTimeFunctionWithDifferentFormats", f:benchmarkParseTimeFunctionWithDifferentFormats},
+
+        {functionName:"benchmarkSprintfWithFloat", f:benchmarkSprintfWithFloat},
+        {functionName:"benchmarkSprintfWithString", f:benchmarkSprintfWithString}
+
     ];
 
     return functionArray;
